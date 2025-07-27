@@ -1,0 +1,322 @@
+.btn-carrito {
+  background-color: #28a745;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.btn-carrito:hover {
+  background-color: #218838;
+}
+
+.login-bar {
+  background-color: #eef;
+  padding: 10px;
+  text-align: right;
+  font-family: Arial, sans-serif;
+}
+
+.form-login input[type="text"],
+.form-login input[type="password"] {
+  padding: 5px;
+  margin: 0 5px;
+}
+
+.form-login button {
+  padding: 5px 10px;
+  background-color: #3b7ddd;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+body {
+  background-image: url('img/manos.png');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.search-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#results-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+
+.event-box {
+  background-color: #fff8dc;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.event-box:hover {
+  transform: scale(1.02);
+}
+
+.event-box h3 {
+  margin-top: 0;
+  color: #37474f;
+}
+
+.subtitulo {
+  font-size: 1.2em;
+  color: #666;
+  margin: 5px 0 15px;
+}
+
+.encabezado {
+  background-color: #fce38a; 
+  text-align: center;
+  padding: 20px;
+  border-bottom: 4px solid #f38181;
+}
+
+.titulo {
+  font-size: 2em;
+  color: #333;
+  margin: 0;
+}
+
+.subtitulo {
+  font-size: 1.2em;
+  color: #666;
+  margin-top: 5px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 10px 0;
+  background-color: #95e1d3;
+  margin: 0;
+}
+
+.menu li {
+  margin: 0 15px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  padding: 8px 12px;
+  transition: background-color 0.3s, color 0.3s;
+  border-radius: 5px;
+}
+
+.menu a:hover {
+  background-color: #f38181;
+  color: white;
+}
+
+#eventos-destacados-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.evento-card {
+  background-color: #f8d7da !important;
+  border: 2px solid #f5c6cb !important;
+  border-radius: 15px !important;
+  padding: 20px !important;
+  width: 300px !important;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1) !important;
+  transition: transform 0.3s ease;
+}
+
+.evento-card h3 {
+  margin-top: 0;
+  color: #37474f;
+  font-size: 1.3em;
+}
+
+.evento-card:hover {
+  transform: scale(1.03);
+}
+
+.evento-card p {
+  margin: 8px 0;
+  font-size: 0.95em;
+}
+
+
+.carousel-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+.carousel {
+  display: flex;
+  gap: 16px;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  width: 100%;
+  padding: 10px;
+}
+
+.project-card {
+  flex: 0 0 48%;
+  background-color: #d0f0f8; 
+  border-radius: 16px;
+  padding: 16px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  min-width: 48%;
+  transition: transform 0.3s ease;
+}
+
+.carousel-btn {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 50%;
+  transition: opacity 0.3s ease;
+  z-index: 2;
+}
+
+.carousel-btn.left {
+  position: absolute;
+  left: -5px;
+}
+
+.carousel-btn.right {
+  position: absolute;
+  right: -5px;
+}
+
+.carousel-btn.disabled {
+  opacity: 0.3;
+  pointer-events: none;
+}
+
+.barra-navegacion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #95e1d3;
+  padding: 10px 20px;
+  flex-wrap: wrap;
+}
+
+.barra-busqueda {
+  display: flex;
+  gap: 8px;
+}
+
+.barra-busqueda input {
+  padding: 6px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.barra-busqueda button {
+  background-color: #f38181;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.barra-busqueda button:hover {
+  background-color: #e57373;
+}
+
+
+.formulario-donacion {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #ffffffdd;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.formulario-donacion input,
+.formulario-donacion button {
+  padding: 8px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.formulario-donacion button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.formulario-donacion button:hover {
+  background-color: #0056b3;
+}
+ 
+.registro-evento {
+  background-color: #ffffffcc;
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.registro-evento h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.formulario-evento {
+  display: flex;
+  flex-direction: column;
+}
+
+.formulario-evento label {
+  margin: 0.5rem 0 0.2rem;
+  font-weight: bold;
+}
+
+.formulario-evento input,
+.formulario-evento select {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.formulario-evento button {
+  margin-top: 1.5rem;
+  padding: 0.8rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.formulario-evento button:hover {
+  background-color: #0056b3;
+}
