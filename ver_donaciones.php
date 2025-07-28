@@ -41,5 +41,22 @@ require_once "conexion.php";
       </tr>
     <?php endwhile; ?>
   </table>
+
+  <div style="margin-top: 40px;">
+  <a href="index.php" style="
+      display: inline-block;
+      padding: 10px 30px;
+      background: #00796b;
+      color: white;
+      border-radius: 6px;
+      text-decoration: none;
+      font-size: 1.1em;
+      font-weight: bold;
+      transition: background 0.3s;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.07);
+    " onmouseover="this.style.background='#004d40'" onmouseout="this.style.background='#00796b'">
+    ← Volver al inicio
+  </a>
+</div>
 </body>
 </html>
